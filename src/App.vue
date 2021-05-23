@@ -8,7 +8,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 //import axios from 'axios' //CORS跨域
-// import jsonp from "jsonp"
+import jsonp from 'jsonp'
 
 export default {
   name: 'App',
@@ -21,13 +21,13 @@ export default {
     }
   },
   mounted(){
-    //let url = "https://www.easy-mock.com/mock/5b012c1fe6e1035843cd3aff/mockapi/table/list"
+    let url = "/activity/servicetime"
     // axios.get(url).then(()=>{
 
     // })
-    // jsonp(url,()=>{
+    jsonp(url,()=>{
       
-    // })
+    })
   }
 }
 </script>
