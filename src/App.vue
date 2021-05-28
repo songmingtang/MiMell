@@ -5,8 +5,6 @@
 </template>
 
 <script>
-//import axios from 'axios' //CORS跨域
-import jsonp from 'jsonp'
 
 export default {
   name: 'App',
